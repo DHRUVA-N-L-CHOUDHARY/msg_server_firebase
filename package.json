@@ -1,0 +1,17 @@
+{
+  "name": "msg_server",
+  "version": "1.0.0",
+  "description": "The Server for messaging to group of users accroding to their request",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "Dhruva N L",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.9.0",
+    "node-cron": "^3.0.2"
+  }
+}
